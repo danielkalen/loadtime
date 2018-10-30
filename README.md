@@ -7,7 +7,7 @@
 ## Install
 
 ```
-$ npm install --save loadtime
+$ npm install --save --global loadtime
 ```
 
 
