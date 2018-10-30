@@ -1,6 +1,6 @@
 {
   "name": "loadtime",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Measure how long it takes to load an npm module in node",
   "main": "index.js",
   "bin": {
