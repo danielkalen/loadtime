@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+const target = process.argv[2]
+
+if (!target) {
+	console.error("Error: target not specified")
+	process.exit(1)
+}
+
+require('./')(target).then((duration)=> {
+	console.log(`${duration}ms`)
+})

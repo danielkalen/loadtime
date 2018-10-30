@@ -1,0 +1,30 @@
+{
+  "name": "loadtime",
+  "version": "0.0.0",
+  "description": "Measure how long it takes to load an npm module in node",
+  "main": "index.js",
+  "bin": {
+    "loadtime": "./bin"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielkalen/loadtime.git"
+  },
+  "author": "danielkalen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielkalen/loadtime/issues"
+  },
+  "homepage": "https://github.com/danielkalen/loadtime#readme",
+  "dependencies": {
+    "execa": "^1.0.0",
+    "fs-jetpack": "^2.2.0",
+    "time-span": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
