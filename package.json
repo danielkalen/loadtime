@@ -6,6 +6,9 @@
   "bin": {
     "loadtime": "./bin"
   },
+  "engines": {
+    "node": ">=4"
+  },
   "scripts": {
     "test": "ava"
   },
