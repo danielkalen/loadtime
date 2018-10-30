@@ -7,7 +7,7 @@
     "loadtime": "./bin"
   },
   "engines": {
-    "node": ">=7"
+    "node": ">=8"
   },
   "scripts": {
     "test": "ava"
